@@ -19,9 +19,6 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-
-
-	
 </head>
 <body>
 	<header id="header">
@@ -29,7 +26,7 @@
 			<div class="row">
 				<div class="col">
 					<h1>
-						<a href="https://takeafire.com.br"><img src="assets/img/logo.png" alt="Take A Fire"></a>
+						<a href="https://takeafire.com.br"><img src="assets/img/logo.png" alt="Take A Fire" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;"></a>
 					</h1>
 					<h2 class="flexo flexo-black"><span>Nossa plataforma encontra-se em Consturção!</span></h2>
 				</div>
@@ -43,5 +40,19 @@
 	<script src="assets/js/jquery.mask.js" ></script>
 	<script src="assets/js/parallax.min.js" ></script>
 	<script src="assets/js/wow.min.js" ></script>
+     <script>
+/*function check(e)
+{
+alert(e.keyCode);
+}*/
+document.onkeydown = function(e) {
+        if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+            alert('HUM... NÃO VAI DA NÃO');
+        }
+        return false;
+};
+     </script>
+     <body bgcolor="black" oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;">
+ </body>
 </body>
 </html>
