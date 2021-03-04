@@ -1,0 +1,49 @@
+@font-face{font-family:Flexo;src:url(Flexo-Thin.woff2) format('woff2'),url(../font/Flexo-Thin.woff) format('woff'),url(../font/Flexo-Thin.svg#Flexo-Thin) format('svg');font-weight:100;font-style:normal}@font-face{font-family:Flexo;src:url(Flexo-Bold.woff2) format('woff2'),url(../font/Flexo-Bold.woff) format('woff'),url(../font/Flexo-Bold.svg#Flexo-Bold) format('svg');font-weight:700;font-style:normal}@font-face{font-family:Flexo;src:url(Flexo-It.woff2) format('woff2'),url(../font/Flexo-It.woff) format('woff'),url(../font/Flexo-It.svg#Flexo-It) format('svg');font-weight:400;font-style:italic}@font-face{font-family:Flexo;src:url(Flexo-Regular.woff2) format('woff2'),url(../font/Flexo-Regular.woff) format('woff'),url(../font/Flexo-Regular.svg#Flexo-Regular) format('svg');font-weight:400;font-style:normal}@font-face{font-family:Flexo;src:url(Flexo-Black.woff2) format('woff2'),url(../font/Flexo-Black.woff) format('woff'),url(../font/Flexo-Black.svg#Flexo-Black) format('svg');font-weight:900;font-style:normal}
+.flexo{font-family: "Flexo";}
+.flexo-thin{font-weight: 100;font-style:normal}
+.flexo-regular{font-weight: 500;font-style:normal}
+.flexo-bold{font-weight: bold;font-style:normal}
+.flexo-black{font-weight: 900;font-style:normal}
+.flexo-italic{font-weight: 400;font-style: italic;}
+
+h1,h2,h3,h4,h5,h6{text-transform: uppercase;}
+body{font-family: 'Roboto', sans-serif;color: #000;font-size: 15px;overflow-x: hidden;text-align: center;}
+ul,li{list-style: none;padding: 0;margin: 0;}
+img{max-width: 100%;}
+
+#header{background: rgb(255,167,0);background: linear-gradient(26deg, rgba(255,167,0,1) 0%, rgba(255,129,0,1) 100%);color: #FFF;position: relative;display: flex;height: 100vh;align-items: center}
+#header h1{margin: auto;border-bottom: 1px solid #fff;padding: 0px 0px 30px;margin-bottom: 50px;}
+#header h1 a{width: 200px;display: block;margin: auto;}
+#header h2{font-size: 26px;}
+#header ul li{display: inline-block;}
+#header ul{display: block;margin-top: 50px;}
+#header a.links{background: #000;color: #ff8d00;padding: 18px 40px;display: inline-block;margin: 10px;border-radius: 30px;text-transform: uppercase;font-size: 18px;}
+
+#home {background: transparent;text-align: center;padding-top: 50px;}
+#home h1{font-size: 50px;padding: 0;color: #ff8d00;}
+#home h2{font-size: 34px;color: #000;margin-bottom: 25px;}
+.video-container{margin-bottom: 25px;}
+.container-video{position: relative;width: 100%;height: 0;padding-bottom: 56.25%;margin-bottom: 10px;}
+.video{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+
+#footer{background: #ececec;padding: 20px 0 0;color: #000;margin-top: 0px;text-align: center;padding-bottom: 25px;}
+#footer img{width: 100px;margin-top: -20px;}
+#footer .title-creci{float: left;margin-left: 10px;}
+#footer h1{font-size: 18px;font-weight: bold;margin: 5px 0 0;}
+#footer .footer > i{top: -12px;position: relative;margin-right: 10px;}
+#footer address{display: inline-block;margin-bottom: 0;}
+#footer address div, #footer a{display: block;}
+#footer a{color: #000;}
+#footer .footer{padding-top: 15px;}
+#footer .map{margin-top: 25px;}
+#footer .ass{margin: 15px 0 5px;text-align: center;display: block;}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 768px) {
+	#footer{text-align: left;padding-bottom: 0;}
+	#footer img{float: left;}
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
