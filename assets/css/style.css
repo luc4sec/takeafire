@@ -19,24 +19,24 @@ img{max-width: 100%;}
 #header ul{display: block;margin-top: 50px;}
 #header a.links{background: #000;color: #ff8d00;padding: 18px 40px;display: inline-block;margin: 10px;border-radius: 30px;text-transform: uppercase;font-size: 18px;}
 
-#home {background: transparent;text-align: center;padding-top: 50px;}
+/* #home {background: transparent;text-align: center;padding-top: 50px;}
 #home h1{font-size: 50px;padding: 0;color: #ff8d00;}
 #home h2{font-size: 34px;color: #000;margin-bottom: 25px;}
 .video-container{margin-bottom: 25px;}
 .container-video{position: relative;width: 100%;height: 0;padding-bottom: 56.25%;margin-bottom: 10px;}
 .video{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 
-#footer{background: #ececec;padding: 20px 0 0;color: #000;margin-top: 0px;text-align: center;padding-bottom: 25px;}
-#footer img{width: 100px;margin-top: -20px;}
+ #footer{background: #ececec;padding: 20px 0 0;color: #000;margin-top: 0px;text-align: center;padding-bottom: 25px;}
+#footer img{width: 100px;margin-top: -50px;}
 #footer .title-creci{float: left;margin-left: 10px;}
 #footer h1{font-size: 18px;font-weight: bold;margin: 5px 0 0;}
-#footer .footer > i{top: -12px;position: relative;margin-right: 10px;}
+#footer .footer > i{top: -50px;position: relative;margin-right: 10px;}
 #footer address{display: inline-block;margin-bottom: 0;}
 #footer address div, #footer a{display: block;}
 #footer a{color: #000;}
 #footer .footer{padding-top: 15px;}
 #footer .map{margin-top: 25px;}
-#footer .ass{margin: 15px 0 5px;text-align: center;display: block;}
+#footer .ass{margin: -80px 0 5px;text-align: center;display: block;} */
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 768px) {
